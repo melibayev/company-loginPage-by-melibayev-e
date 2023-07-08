@@ -81,11 +81,6 @@ body {
 
 @media (max-width: 700px) {
     .home {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 10;
         & > div {
             width: 100%;
         }
@@ -95,7 +90,7 @@ body {
                 padding-left: 50px;
                 padding-right: 50px;
                 max-width: 100%;
-        }
+            }
         }
         &__right {
             display: none;
