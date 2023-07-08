@@ -1,0 +1,42 @@
+@use "../main.scss";
+
+body {
+    background-color: #13232f;
+}
+
+.home {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        font-size: 48px;
+        margin-bottom: 48px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    // background-color: white;
+}
+
+.home__options {
+    display: flex;
+    gap: 100px;
+    a {
+        padding: 10px 0;
+        border: 1px solid transparent;
+        img {
+            width: 400px;
+            height: 400px;
+        }
+        &:hover {
+            border: 1px solid #ffffff;
+            border-radius: 12px;
+        }
+        h4 {
+            font-size: 36px;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+}
