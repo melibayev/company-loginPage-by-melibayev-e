@@ -112,7 +112,7 @@ body {
 }
 @media (max-width: 468px) {
   .home__left .container {
-    padding-top: 150px;
+    padding-top: 120px;
   }
   .home__left .container h1 {
     font-size: 24px;
